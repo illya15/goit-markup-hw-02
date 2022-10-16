@@ -1,0 +1,49 @@
+/* logotip*/
+
+.logo {
+    color:#2196F3;
+} 
+.logo-link {
+    color: #000;
+}
+.logo-link:hover,
+.logo-link:focus{
+color: #2196F3;
+ /*nav*/
+}
+.stydia {
+    color: #000;
+}
+.stydia:hover,
+.stydia:focus{
+    color: #2196F3;
+}
+.portfolio {
+    color: #000;
+}
+.portfolio:hover,
+.portfolio:focus{
+    color: #2196F3;
+}
+.contacs {
+    color: #000;
+}
+.contacs:hover,
+.contacs:focus {
+    color: #2196F3;
+}
+/* email phone*/
+.email{
+    color: #000;
+}
+.email:hover,
+.email:focus {
+    color: #2196F3;
+}
+.phone {
+    color: #000;
+}
+.phone:hover,
+.phone:focus{
+    color: #2196F3;
+}
