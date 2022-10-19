@@ -1,49 +1,44 @@
-/* logotip*/
+/* колір основного тексту,емеіл, тел #757575 */
+/* колір h2,h3,навігація #212121 */
+/* КОЛІР h1,кнопка #FFFFFF */
+/* сдудія #000000  web #2196F3 */
+
+
+body {
+    background: #F5F5F5;
+    color: #757575 ;}
+
+    .list {
+            list-style: none;}
+    
+   
+
+/* шапка logotip*/
 
 .logo {
     color:#2196F3;
 } 
 .logo-link {
-    color: #000;
+    color: #000000;
 }
 .logo-link:hover,
 .logo-link:focus{
-color: #2196F3;
+color: #2196F3;}
  /*nav*/
+ .site-nav .link {
+color:#212121 ;
+ }
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: #2196F3
+   ;
 }
-.stydia {
-    color: #000;
+/* маіл тел */
+    .mail-phone .link{
+        color: #757575;
 }
-.stydia:hover,
-.stydia:focus{
-    color: #2196F3;
-}
-.portfolio {
-    color: #000;
-}
-.portfolio:hover,
-.portfolio:focus{
-    color: #2196F3;
-}
-.contacs {
-    color: #000;
-}
-.contacs:hover,
-.contacs:focus {
-    color: #2196F3;
-}
-/* email phone*/
-.email{
-    color: #000;
-}
-.email:hover,
-.email:focus {
-    color: #2196F3;
-}
-.phone {
-    color: #000;
-}
-.phone:hover,
-.phone:focus{
-    color: #2196F3;
-}
+.mail-phone .link:hover,
+.mail-phone .link:hover {
+    color:#2196F3 ;
+
+    }
