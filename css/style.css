@@ -16,6 +16,9 @@
 
 
 body {
+    font-family: 'Roboto';
+    font-style: normal;
+
     background: #F5F5F5;
     color: var(--primery-text-color) ;}
 
@@ -26,17 +29,35 @@ body {
 
 /* шапка logotip*/
 
-.logo {
-    color: var(--accent-color) ;
-} 
+
 .logo-link {
-    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--accent-color) ;
 }
+.logo {
+    color:#000000 ;
+} 
+
 .logo-link:hover,
 .logo-link:focus{
 color: var(--accent-color);}
  /*nav*/
+ .link {
+    text-decoration: none;
+ }
+ .site-nav .link.current{
+    color: var(--accent-color);
+ }
  .site-nav .link {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    
 color: var(--title-tekst-color) ;
  }
 .site-nav .link:hover,
@@ -49,27 +70,83 @@ color: var(--title-tekst-color) ;
 }
 .mail-phone .link:hover,
 .mail-phone .link:hover {
+   
+font-weight: 500;
+font-size: 14px;
+line-height:calc(16/12);
+letter-spacing: 0.02em;
     color:var(--accent-color) ;
 
     }
     /* герой */
     .hero-title {
+ font-weight: 900;
+font-size: 44px;
+line-height: calc(60/44);
+text-align: left;
+letter-spacing: 0.06em;
+text-transform: uppercase;
         color: #000000;
     }
 
     /* переваги */
+    .visually-hidden {
+        position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px;
+      }
+
+
     .section-title{
+        font-weight: 700;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
         color: var(--title-tekst-color);
     }
     .preference .title {
         color:var(--primery-text-color) ;
     }
+    .preference .text{
+        font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+
+color:var(--primery-text-color);
+    }
 /* чим займаймося img */
 
 /* наша команда */
-.section-title {
-    color: var(--title-tekst-color);
-}
+
+
 .members .title {
-    color: var(--primery-text-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: calc(19/16);
+text-align: left;
+letter-spacing: 0.03em;
+color:var(--title-tekst-color);
+    }
+    .members .profetion-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+letter-spacing: 0.03em;
+color:var(--primery-text-color) ;
+    }
+
+/* button */
+.button {
+    color: white;
+    background-color: #2196F3;
 }
