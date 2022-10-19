@@ -4,9 +4,20 @@
 /* сдудія #000000  web #2196F3 */
 
 
+:root {
+    --primery-text-color:#757575;
+    --title-tekst-color:  #212121;
+    --accent-color: #2196F3;
+
+}
+
+
+
+
+
 body {
     background: #F5F5F5;
-    color: #757575 ;}
+    color: var(--primery-text-color) ;}
 
     .list {
             list-style: none;}
@@ -16,29 +27,49 @@ body {
 /* шапка logotip*/
 
 .logo {
-    color:#2196F3;
+    color: var(--accent-color) ;
 } 
 .logo-link {
     color: #000000;
 }
 .logo-link:hover,
 .logo-link:focus{
-color: #2196F3;}
+color: var(--accent-color);}
  /*nav*/
  .site-nav .link {
-color:#212121 ;
+color: var(--title-tekst-color) ;
  }
 .site-nav .link:hover,
 .site-nav .link:focus {
-   color: #2196F3
-   ;
+   color: var(--accent-color)   ;
 }
 /* маіл тел */
     .mail-phone .link{
-        color: #757575;
+        color:var(--primery-text-color);
 }
 .mail-phone .link:hover,
 .mail-phone .link:hover {
-    color:#2196F3 ;
+    color:var(--accent-color) ;
 
     }
+    /* герой */
+    .hero-title {
+        color: #000000;
+    }
+
+    /* переваги */
+    .section-title{
+        color: var(--title-tekst-color);
+    }
+    .preference .title {
+        color:var(--primery-text-color) ;
+    }
+/* чим займаймося img */
+
+/* наша команда */
+.section-title {
+    color: var(--title-tekst-color);
+}
+.members .title {
+    color: var(--primery-text-color);
+}
