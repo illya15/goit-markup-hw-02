@@ -3,7 +3,6 @@
 /* КОЛІР h1,кнопка #FFFFFF */
 /* сдудія #000000  web #2196F3 */
 
-
 :root {
     --primery-text-color:#757575;
     --title-tekst-color:  #212121;
@@ -11,12 +10,8 @@
 
 }
 
-
-
-
-
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     background: #F5F5F5;
     color: var(--primery-text-color) ;}
@@ -72,7 +67,7 @@ color: var(--title-tekst-color) ;
     color:var(--primery-text-color);
 }
 .mail-phone .link:hover,
-.mail-phone .link:hover {
+.mail-phone .link:focus {
    
 font-weight: 500;
 font-size: 14px;
@@ -175,21 +170,49 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.mail-footer {
+.address .link:hover,
+.address .link:focus{
+    color: var(--accent-color); 
+
+}
+ .mail-footer { 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    /* color: rgba(255, 255, 255, 0.6); */
 }
-.tel-footer {
+.tel-footer { 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: rgba(255, 255, 255, 0.6); 
+}
+
+
+
+/* ПОРТФОЛІО */
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    background-color: #F5F4FA;
+}
+.button-portfolio .link:hover,
+.button-portfolio .link:focus{
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: left;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: var(--accent-color);
 }
