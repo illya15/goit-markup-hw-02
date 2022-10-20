@@ -18,7 +18,6 @@
 body {
     font-family: 'Roboto';
     font-style: normal;
-
     background: #F5F5F5;
     color: var(--primery-text-color) ;}
 
@@ -28,8 +27,6 @@ body {
    
 
 /* шапка logotip*/
-
-
 .logo-link {
     font-family: 'Raleway';
     font-weight: 700;
@@ -37,8 +34,14 @@ body {
     text-decoration: none;
     color: var(--accent-color) ;
 }
-.logo {
-    color:#000000 ;
+.logo-header {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color: #000000;
 } 
 
 .logo-link:hover,
@@ -66,7 +69,7 @@ color: var(--title-tekst-color) ;
 }
 /* маіл тел */
     .mail-phone .link{
-        color:var(--primery-text-color);
+    color:var(--primery-text-color);
 }
 .mail-phone .link:hover,
 .mail-phone .link:hover {
@@ -75,10 +78,13 @@ font-weight: 500;
 font-size: 14px;
 line-height:calc(16/12);
 letter-spacing: 0.02em;
-    color:var(--accent-color) ;
+color:var(--accent-color) ;
 
     }
     /* герой */
+    .hero{
+        background-color: #2F303A;
+    }
     .hero-title {
  font-weight: 900;
 font-size: 44px;
@@ -86,7 +92,7 @@ line-height: calc(60/44);
 text-align: left;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-        color: #000000;
+        color: #FFFFFF;
     }
 
     /* переваги */
@@ -112,11 +118,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
         color: var(--title-tekst-color);
     }
-    .preference .title {
-        color:var(--primery-text-color) ;
+.preference .title {
+color:var(--primery-text-color) ;
     }
-    .preference .text{
-        font-weight: 400;
+.preference .text{
+font-weight: 400;
 font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
@@ -125,9 +131,8 @@ color:var(--primery-text-color);
     }
 /* чим займаймося img */
 
+
 /* наша команда */
-
-
 .members .title {
     font-weight: 500;
 font-size: 16px;
@@ -136,7 +141,7 @@ text-align: left;
 letter-spacing: 0.03em;
 color:var(--title-tekst-color);
     }
-    .members .profetion-text{
+.members .profetion-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -149,4 +154,42 @@ color:var(--primery-text-color) ;
 .button {
     color: white;
     background-color: #2196F3;
+}
+/* футер */
+.footer {
+    background-color:#2F303A;
+}
+.logo-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.street{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.mail-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
